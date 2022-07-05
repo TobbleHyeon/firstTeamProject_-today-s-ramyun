@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오늘의라면_mobile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- 모바일 랩 -->
+    <div class="wrap">
+        <!-- 이벤트 팝업 -->
+        <div class="signup_coupon">
+            <a href="#">
+                <p>회원가입 즉시 5,000원 웰컴쿠폰을 드려요 💖</p>
+            </a>
+            <button><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <!-- 헤더 영역 -->
+        <header>
+            <div class="header_top">
+                <button type="button" class="ham"><i class="fa-solid fa-bars"></i></button>
+                <h1 class="logo"><img src="./img/logo.svg" alt=""></h1>
+                <div class="personal">
+                    <button type="button" class="user"><i class="fa-solid fa-user"></i></button>
+                    <button type="button" class="cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div class="header_bottom">
+                <div class="search">
+                    <input type="text" placeholder="오늘은 어떤 라면이 끌리나요?">
+                    <button type="button" class="serach_icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+        </header>
+        <!-- 섹션 영역1 -->
+        <section class="menu_button">
+            <a href="#" class="event">
+                <img src="./img/motorcycle.png" alt="오토바이">
+                <p>이벤트</p>
+            </a>
+            <a href="#" class="subscribe">
+                <img src="./img/character.png" alt="대표캐릭터">
+                <p>구독하기</p>
+            </a>
+            <a href="#" class="review">
+                <img src="./img/malang.png" alt="서브캐릭터">
+                <p>사용자 후기</p>
+            </a>
+        </section>
+        <!-- 섹션 영역2 -->
+        <section class="introduce">
+            <div class="introduce_contents">
+                <ul class="slide">
+                    <li class="intropack">
+                        <div class="intro_text">
+                            <div class="intro_hd">
+                                <h2>이젠,<strong> 라면</strong>도<br><strong>편하게 구독</strong>하세요!</h2>
+                            </div>
+                            <p>한 묶음 씩 사기엔 망설여지고,<br> 원하는 라면이 없어 실망했던<br> 여러분들을 위해 오늘의 라면이 탄생했습니다.</p>
+                            <a href="#">오늘의 라면 100% 활용법</a>
+                        </div>
+                    </li>
+                    <li class="intropack">
+                        <div class="user_text">
+                            <h2>많은 분들이<strong> 오늘의 라면</strong>을<br>찾아 주십니다!</h2>
+                            <p>여러분들은 어디에 속하시나요?</p>
+                        </div>
+                        <div class="user_img">
+                            <div class="intro_img">
+                                <img src="./img/intropack_01_2.png" alt="직장인">
+                                <span>직장인</span>
+                            </div>
+                            <div class="intro_img">
+                                <img src="./img/intropack_02.png" alt="라면애호가">
+                                <span>라면애호가</span>
+                            </div>
+                            <div class="intro_img">
+                                <img src="./img/intropack_03.png" alt="주부">
+                                <span>주부</span>
+                            </div>
+                            <div class="intro_img">
+                                <img src="./img/intropack_04.png" alt="1인가구">
+                                <span>1인가구</span>
+                            </div>
+                            <div class="intro_img">
+                                <img src="./img/intropack_05.png" alt="자취생">
+                                <span>자취생</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="intropack">
+                        <div class="benefit_text">
+                            <h2><strong>오직 구독으로 누리는 혜택!</strong></h2>
+                            <p>최대 60% 할인 받고<br>평생 무료배송 받아요!</p>
+                        </div>
+                        <img src="./img/truck.png" alt="트럭">
+                    </li>
+                    <li class="intropack">
+                        <div class="choice_text">
+                            <h2><strong>당연히 매달 안 드셔도 돼요!</strong></h2>
+                            <p>라면 수량과<br>배송주기도<br>나에게 맞게<br>선택해요</p>
+                        </div>
+                        <img src="./img/choice_2.png" alt="배송주기">
+                    </li>
+                    <li class="intropack">
+                        <div class="package_text">
+                            <h2><strong>매번 다른 라면으로 먹어봐야죠!</strong></h2>
+                            <p>배송 받을<br>라면을<br> 언제든지<br>변경해요!</p>
+                        </div>
+                        <img src="./img/choice_3.png" alt="패키지선택">
+                    </li>
+                    <li class="intropack">
+                        <div class="total_text">
+                            <h2><strong>해외라면을 포함한 100여종 인기라면!</strong></h2>
+                            <p>즐겨먹던 라면부터<br>궁금했던 라면까지 한 번에</p>
+                        </div>
+                        <img src="./img/Amollang.png" alt="패키지이미지">
+                    </li>
+                </ul>
+            </div>
+            <!-- <button class="prev">&lt</button>
+            <button class="next">&gt</button>
+            <div class="dot_wrap">
+                <span class="dot_1"></span>
+                <span class="dot_2"></span>
+                <span class="dot_3"></span>
+                <span class="dot_4"></span>
+                <span class="dot_5"></span>
+                <span class="dot_6"></span> -->
+
+
+        </section>
+        <!-- 섹션 영역3 -->
+        <section class="ramyun_ranking">
+            <div class="ranking_wrap">
+                <ul class="ranking">
+                    <li>
+                        <div class="first">
+                            <h3>오늘의 라면 1위</h3>
+                            <p>오뚜기 열라면</p>
+                            <img src="./img/medal.png" alt="금메달" class="gd_med">
+                            <div><img src="./img/hot.png" alt="열라면"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="second">
+                            <h3>오늘의 라면 2위</h3>
+                            <p>농심 신라면</p>
+                            <img src="./img/Medal_silver.png" alt="은메달" class="silv_med">
+                            <div><img src="./img/sinramyun.png" alt="신라면"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="third">
+                            <h3>오늘의 라면 3위</h3>
+                            <p>농심 너구리</p>
+                            <img src="./img/Medal_Bronze.png" alt="동메달" class="bron_med">
+                            <div><img src="./img/nuguri.png" alt="너구리"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="fourth">
+                            <h3>오늘의 라면 4위</h3>
+                            <p>농심 오징어짬뽕</p>
+                            <img src="./img/sad.png" alt="우는표정1" class="sad">
+                            <div><img src="./img/ohjjam.png" alt="오징어짬뽕"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="fifth">
+                            <h3>오늘의 라면 5위</h3>
+                            <p>팔도 틈새라면</p>
+                            <img src="./img/sad_2.png" alt="우는표정2" class="cry">
+                            <div><img src="./img/paldo.png" alt="틈새라면"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- 푸터 영역 -->
+        <footer class="footer">
+            <nav class="footer_top">
+                <a href="#">이용약관</a>
+                <a href="#">개인정보처리방침</a>
+                <a href="#">입점/제휴문의</a>
+                <a href="#">기업/대량 구매</a>
+                <a href="#">인스타그램</a>
+                <a href="#">카카오채널</a>
+            </nav>
+            <div class="footer_bottom">
+                <ul class="bottom_info"><strong>INFO</strong>
+                    <li>
+                        <span>&#40;주&#41;유시스</span>
+                        <p>부산 해운대구 센텀북대로 60 센텀IS타워 1007호</p>
+                    </li>
+                    <li>
+                        <span>대표자명</span>
+                        <p>박종덕</p>
+                    </li>
+                    <li>
+                        <span>사업자등록번호</span>
+                        <p>617-81-60090 <a href="#">&#91;사업자정보확인&#93;</a></p>
+                    </li>
+                    <li>
+                        <span>통신판매업신고번호</span>
+                        <p>2012-부산해운-0108</p>
+                    </li>
+                </ul>
+                <ul class="bottom_cs"><strong>CS CENTER</strong>
+                    <li>
+                        <span>문의전화</span>
+                        <p>070-4351-3012</p>
+                    </li>
+                    <li>
+                        <span>업무시간</span>
+                        <p>평일 10&#58;00&#126;17:00 &#40;주말&#47;공휴일 휴무&#41;</p>
+                    </li>
+                    <li>
+                        <span>문의메일</span>
+                        <p>rrh&#64;uxis&#46;co&#46;kr</p>
+                    </li>
+                    <li>
+                        <span>팩스번호</span>
+                        <p>051-780-8157</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="copyright">
+                Copyright&copy;2021 Today Noodle All rights reserved&#46;
+            </div>
+        </footer>
+    </div>
+    </div>
+
+</body>
+
+</html>
